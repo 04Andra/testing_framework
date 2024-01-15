@@ -11,6 +11,7 @@ int maximumNumber(int vector[50], int n) {
 }
 
 int main () {
+
     int vector[50] = {1, 4, 5, 23, 2, 543, 6};
     int n = sizeof (vector) / sizeof (vector[0]);
 

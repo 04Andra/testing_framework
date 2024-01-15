@@ -13,11 +13,12 @@ char* concatMethod(char a[50], char b[50]) {
 }
 
 int main() {
+
     char str1[50] = "Hello";
     char str2[50] = "World";
 
     char* result = concatMethod(str1, str2);
-    printf("%s\n", result);
+    printf("%s", result);
 
     free(result);
 
